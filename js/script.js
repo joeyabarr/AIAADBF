@@ -189,9 +189,9 @@ function updateTheme() {
     });
 
   if (darkMode.checked) {
-    enableStyleSheet(darkSS, true);
-  } else {
     enableStyleSheet(lightSS, true);
+  } else {
+    enableStyleSheet(darkSS, true);
   }
 
   if (showCalibration && !logContainer.classList.contains('show-calibration')) {
